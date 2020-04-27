@@ -1,10 +1,6 @@
 dependencies:
   core-js: 3.6.4
-  element-ui: 2.13.0_vue@2.6.11
   mavon-editor: 2.7.7
-  vue: 2.6.11
-  vue-router: 3.1.6
-  vuex: 3.1.3_vue@2.6.11
 devDependencies:
   '@vue/cli-plugin-babel': 4.2.3_@vue+cli-service@4.2.3
   '@vue/cli-plugin-eslint': 4.2.3_35fea342ae945b5d2c52ba1a42d962de
@@ -1836,13 +1832,6 @@ packages:
     resolution:
       integrity: sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
       tarball: async-limiter/download/async-limiter-1.0.1.tgz
-  /async-validator/1.8.5:
-    dependencies:
-      babel-runtime: 6.26.0
-    dev: false
-    resolution:
-      integrity: sha1-3D4I7B/Q3dtn5ghC8CwM0c7G1/A=
-      tarball: async-validator/download/async-validator-1.8.5.tgz
   /async/2.6.3:
     dependencies:
       lodash: 4.17.15
@@ -1906,11 +1895,6 @@ packages:
     resolution:
       integrity: sha1-aWjlaKkQt4+zd5zdi2rC9HmUMjI=
       tarball: babel-eslint/download/babel-eslint-10.1.0.tgz
-  /babel-helper-vue-jsx-merge-props/2.0.3:
-    dev: false
-    resolution:
-      integrity: sha1-Iq69OzOQIyjlEyk6jkmSs4T58bY=
-      tarball: babel-helper-vue-jsx-merge-props/download/babel-helper-vue-jsx-merge-props-2.0.3.tgz
   /babel-loader/8.0.6_@babel+core@7.8.7+webpack@4.42.0:
     dependencies:
       '@babel/core': 7.8.7
@@ -1935,14 +1919,6 @@ packages:
     resolution:
       integrity: sha1-8A9Qe9qjw+P/bn5emNkKesq5b38=
       tarball: babel-plugin-dynamic-import-node/download/babel-plugin-dynamic-import-node-2.3.0.tgz?cache=0&sync_timestamp=1580884396125&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-plugin-dynamic-import-node%2Fdownload%2Fbabel-plugin-dynamic-import-node-2.3.0.tgz
-  /babel-runtime/6.26.0:
-    dependencies:
-      core-js: 2.6.11
-      regenerator-runtime: 0.11.1
-    dev: false
-    resolution:
-      integrity: sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
-      tarball: babel-runtime/download/babel-runtime-6.26.0.tgz
   /balanced-match/1.0.0:
     dev: true
     resolution:
@@ -2827,13 +2803,6 @@ packages:
     resolution:
       integrity: sha1-k4R2Vp67bNqA0zm88Zn65PFv/xc=
       tarball: core-js-compat/download/core-js-compat-3.6.4.tgz
-  /core-js/2.6.11:
-    deprecated: 'core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
-    dev: false
-    requiresBuild: true
-    resolution:
-      integrity: sha1-OIMUafmSK97Y7iHJ3EaYXgOZMIw=
-      tarball: core-js/download/core-js-2.6.11.tgz
   /core-js/3.6.4:
     requiresBuild: true
     resolution:
@@ -3196,6 +3165,7 @@ packages:
       integrity: sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
       tarball: deep-is/download/deep-is-0.1.3.tgz
   /deepmerge/1.5.2:
+    dev: true
     engines:
       node: '>=0.10.0'
     resolution:
@@ -3483,21 +3453,6 @@ packages:
     resolution:
       integrity: sha1-gdxegqPnK7uDDZPhW8Ne2iu8kQ4=
       tarball: electron-to-chromium/download/electron-to-chromium-1.3.379.tgz
-  /element-ui/2.13.0_vue@2.6.11:
-    dependencies:
-      async-validator: 1.8.5
-      babel-helper-vue-jsx-merge-props: 2.0.3
-      deepmerge: 1.5.2
-      normalize-wheel: 1.0.1
-      resize-observer-polyfill: 1.5.1
-      throttle-debounce: 1.1.0
-      vue: 2.6.11
-    dev: false
-    peerDependencies:
-      vue: ^2.5.17
-    resolution:
-      integrity: sha1-9rsE5bCnbqX2JGYES3dEB7pOvS0=
-      tarball: element-ui/download/element-ui-2.13.0.tgz
   /elliptic/6.5.2:
     dependencies:
       bn.js: 4.11.8
@@ -6376,11 +6331,6 @@ packages:
     resolution:
       integrity: sha1-suHE3E98bVd0PfczpPWXjRhlBVk=
       tarball: normalize-url/download/normalize-url-3.3.0.tgz
-  /normalize-wheel/1.0.1:
-    dev: false
-    resolution:
-      integrity: sha1-rsiGr/2wRQcNhWRH32Ls+GFG7EU=
-      tarball: normalize-wheel/download/normalize-wheel-1.0.1.tgz
   /npm-run-path/2.0.2:
     dependencies:
       path-key: 2.0.1
@@ -7709,11 +7659,6 @@ packages:
     resolution:
       integrity: sha1-SoVuxLVuQHfFV1icroXnpMiGmhE=
       tarball: regenerate/download/regenerate-1.4.0.tgz
-  /regenerator-runtime/0.11.1:
-    dev: false
-    resolution:
-      integrity: sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
-      tarball: regenerator-runtime/download/regenerator-runtime-0.11.1.tgz
   /regenerator-runtime/0.13.5:
     dev: true
     resolution:
@@ -7895,11 +7840,6 @@ packages:
     resolution:
       integrity: sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
       tarball: requires-port/download/requires-port-1.0.0.tgz
-  /resize-observer-polyfill/1.5.1:
-    dev: false
-    resolution:
-      integrity: sha1-DpAg3T0hAkRY1OvSfiPkAmmBBGQ=
-      tarball: resize-observer-polyfill/download/resize-observer-polyfill-1.5.1.tgz
   /resolve-cwd/2.0.0:
     dependencies:
       resolve-from: 3.0.0
@@ -8874,13 +8814,6 @@ packages:
     resolution:
       integrity: sha1-y9LBOfwrLebp0o9iKGq3cMGsvdo=
       tarball: thread-loader/download/thread-loader-2.1.3.tgz
-  /throttle-debounce/1.1.0:
-    dev: false
-    engines:
-      node: '>=4'
-    resolution:
-      integrity: sha1-UYU9o3vmihVctugns1FKPEIuic0=
-      tarball: throttle-debounce/download/throttle-debounce-1.1.0.tgz
   /through/2.3.8:
     dev: true
     resolution:
@@ -9382,11 +9315,6 @@ packages:
     resolution:
       integrity: sha1-vSq489KB5R17gdFTkKWEJNFCJD4=
       tarball: vue-loader/download/vue-loader-15.9.1.tgz
-  /vue-router/3.1.6:
-    dev: false
-    resolution:
-      integrity: sha1-RfWjo4Q+MXAsBh3YKTk1VOQyj4k=
-      tarball: vue-router/download/vue-router-3.1.6.tgz
   /vue-style-loader/4.1.2:
     dependencies:
       hash-sum: 1.0.2
@@ -9408,20 +9336,6 @@ packages:
     resolution:
       integrity: sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
       tarball: vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz
-  /vue/2.6.11:
-    dev: false
-    resolution:
-      integrity: sha1-dllNh31LEiNEBuhONSdcbVFBJcU=
-      tarball: vue/download/vue-2.6.11.tgz
-  /vuex/3.1.3_vue@2.6.11:
-    dependencies:
-      vue: 2.6.11
-    dev: false
-    peerDependencies:
-      vue: ^2.0.0
-    resolution:
-      integrity: sha1-8q1z4/tzaRaYs4yT9m5Y4meUcYA=
-      tarball: vuex/download/vuex-3.1.3.tgz
   /watchpack/1.6.0:
     dependencies:
       chokidar: 2.1.8
@@ -9799,11 +9713,7 @@ specifiers:
   '@vue/cli-service': ~4.2.0
   babel-eslint: ^10.0.3
   core-js: ^3.6.4
-  element-ui: ^2.13.0
   eslint: ^6.7.2
   eslint-plugin-vue: ^6.1.2
-  mavon-editor: ^2.7.7
-  vue: ^2.6.11
-  vue-router: ^3.1.6
+  mavon-editor: 2.7.7
   vue-template-compiler: ^2.6.11
-  vuex: ^3.1.3

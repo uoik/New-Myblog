@@ -1,6 +1,6 @@
 <template>
   <div class="container" v-if="result" v-html="result.content">
-    <mavon-editor />
+    
   </div>
 </template>
 

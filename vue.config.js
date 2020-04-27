@@ -13,7 +13,7 @@ module.exports = {
             'vue': 'Vue',
             'vue-router': 'VueRouter',
             'vuex': 'Vuex',
-            'element-ui':'ElementUI',
+            'element-ui':'ElementUI'
           }
     },
 }

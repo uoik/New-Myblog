@@ -2,7 +2,9 @@
   <div class="main">
     <div class="row">
       <div class="content">
-        <router-view />
+        <keep-alive>
+          <router-view />
+        </keep-alive>
       </div>
       <div class="side">
         <Tag v-if="getAllTag" @change="change" :tags="getAllTag" />
@@ -24,7 +26,7 @@ export default {
   components: {
     Tag,
     HotArticle,
-    NewInfo
+    NewInfo,
   },
 
   computed: {
@@ -39,12 +41,15 @@ export default {
     // 从仓库得到最新留言
     getNewComment() {
       return this.$store.state.comment.newComment;
-    }
+    },
   },
 
   methods: {
     // 点击事件
     change(param) {
+      if (this.$route.path !== "/home") {
+        this.$router.push("/home");
+      }
       // 设置tag
       this.$store.commit("blog/updateState", { tag: param });
       const loading = this.loading();
@@ -59,9 +64,9 @@ export default {
     loading() {
       return this.$loading({
         text: "努力加载中...",
-        background: "rgba(0, 0, 0, 0.7)"
+        background: "rgba(0, 0, 0, 0.7)",
       });
-    }
+    },
   },
 
   mounted() {
@@ -73,7 +78,7 @@ export default {
 
     // 获取最新留言
     this.$store.dispatch("comment/NewComment");
-  }
+  },
 };
 </script>
 

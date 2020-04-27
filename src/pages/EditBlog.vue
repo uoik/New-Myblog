@@ -55,6 +55,7 @@ export default {
       img_files: {}
     };
   },
+
   methods: {
     // 上传图片
     imgAdd(pos, file) {
